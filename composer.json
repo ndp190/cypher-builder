@@ -1,0 +1,18 @@
+{
+    "name": "nikk/cypher-builder",
+    "description": "Neo4j cypher query builder",
+    "authors": [
+        {
+            "name": "Nikk",
+            "email": "ndp190@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nikk\\CypherBuilder\\": "./src"
+        }
+    },
+    "require": {
+        "graphaware/neo4j-php-client": "^4.6"
+    }
+}
