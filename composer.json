@@ -9,10 +9,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "Nikk\\CypherBuilder\\": "./src"
+            "nikk\\cypherbuilder\\": "./"
         }
     },
     "require": {
-        "graphaware/neo4j-php-client": "^4.6"
+        "graphaware/neo4j-php-client": "^4.6",
+        "doctrine/dbal": "^2.5"
     }
 }
