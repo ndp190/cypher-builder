@@ -8,8 +8,6 @@ class Test extends \PHPUnit_Framework_TestCase
 {
     public function testMatch()
     {
-// MATCH (foo:Foo {prop: "value"})-[r:fooRel|:barRel]->()<-[rr:bazRel]-(baz:Baz) WHERE foo.name='blah' AND exists(r.rr) RETURN foo,baz
-
 // // Detail version
 // $cb = CypherBuilder::createBuilder($client) // maybe another class for creation
 //    ->match(
